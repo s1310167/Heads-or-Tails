@@ -24,5 +24,9 @@ class HeadsOrTails{
 		}
 		
 		System.out.printf("Heads: %d, Tails: %d\n",heads,tails);
+		if (heads > tails)
+			System.out.println("You won");
+		else
+			System.out.println("You lose");
 	}
 }
